@@ -16,6 +16,13 @@ body {
     
 }
 
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
 .header-text {
     display: flex;
     justify-content: center;
@@ -61,4 +68,49 @@ body {
 
 .button-key:hover {
     background-color: #d59bf6;
+}
+/* Estilos para la galería */
+.gallery {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.image {
+    display: none; /* Ocultar imágenes por defecto */
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+.image img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para la descripción de las imágenes */
+.image p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Estilos para los botones de navegación */
+.navigation {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }

@@ -5,39 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Dennise</title>
 </head>
 <body>
-    
     <header class="header">
         <div class="header-text">
             <div class="header-text_content">
                 <h1 class="header-text_content-txt">Ariadne Denisse Morales Vilchis</h1>
-                <p class="header-text_content-paragraph">Estudiante de Ingeniería en Sistemas Computacionales en la Escuela Superior de Cómputo
-                    <br>
-                    Actualmente cuento con experiencia de 3 años en el área de Desarrollo de Software para empresas de Sistemas TI Bancarios.
-                    <br>
-                    Dentro de mis pasatiempos favoritos se encuentra el realizar actividades al aire libre, leer, salir de viaje y pasar tiempo con mi familia y amigos.
-                </p>
-
+                <p class="header-text_content-paragraph">Contacto: </p>
+                <a href="https://www.facebook.com/adenisse.mv/" class="button-key">FB</a>
+                <a href="https://www.instagram.com/adenisse.mv/" class="button-key">IG</a>
+                <a href="mailto:ariadne.morales@hotmail.com" class="button-key">ariadne.morales@hotmail.com</a>
+                
+                <p class="header-text_content-paragraph"></p>
                 <a href="./pdf/Currículum.pdf" class="button-cv">Descargar mi CV</a>
-
                 <a href="" class="button-key">Descargar mi llave pública</a>
-
             </div>
         </div>
-
-
         <div class="header-image">
-            <img src="/img/admv.jpg" alt="ADMV">
+            <img src="/img/admv.jpg" alt="ADMV" height="300px">
         </div>
     </header>
+    <main class="main">
+        <section id="formacionAC">
+            <p class="header-text_content-paragraph">Formación Académica </p>
+            <ul>
+                <li><h3>(2018 - Actualidad)</h3>
+                    <ul style="font-size: 18px;">
+                        <li> <b>Ingeniería en Sistemas Computacionales</b></li>
+                        <li>Escuela Superior de Cómputo</li>
+                    </ul>
+                </li>
+                <li></li>
+                <li><h3>(2014 - 2017)</h3>
+                    <ul style="font-size: 18px;">
+                        <li> <b>Técnico en Sistemas Automotrices</b></li>
+                        <li>Centro de Estudios Científicos y Tecnológicos No 2. “Miguel Bernard”</li>
+                    </ul>
+                </li>
+            </ul>
+            <br>
+            <p style="font-size: 18px;">
+            Actualmente cuento con experiencia de 3 años en el área de Desarrollo de Software para empresas de Sistemas de TI Bancarios.
+            </p>
+            <br>
+        </section>
+        <section>
+            <br>
+            <p class="header-text_content-paragraph">Hobbies</p>
+            <p style="font-size: 18px;">Dentro de mis pasatiempos favoritos se encuentra el realizar actividades al aire libre, leer, salir de viaje y pasar tiempo con mi familia y amigos.</p>
+            <br>
+            <div class="gallery">
+                <!-- La galería de imágenes se generará aquí dinámicamente con JavaScript -->
+            </div>
+            <div class="navigation">
+                <button id="prevBtn">Anterior</button>
+                <button id="nextBtn">Siguiente</button>
+            </div>
+        </section>
+
+    </main>
 
     <div class="section-cv">
         
     </div>
-
+    <script src="js/gallery.js"></script>
 </body>
 </html>
