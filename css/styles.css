@@ -5,9 +5,6 @@
     font-family: 'Acme', sans-serif;
 }
 
-body {
-    background-color: #8ef6e4;
-}
 
 .header {
     display: flex;
